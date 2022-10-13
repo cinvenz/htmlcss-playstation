@@ -1,6 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
 }
+
 
 /* NAV */
 .nav1_top {
@@ -14,5 +16,25 @@ body {
 /* HEADER */
 /* returnal */
 .returnal {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.returnal-title {
+    padding-top: 13rem;
+}
+
+.btn-acquista {
+    background-color: #cd3d0f;
+    border-radius: 50px;
+    padding: 0.7rem 1rem;
+}
+
+.btn-acquista:hover {
+    background-color: #cd3d0f;
+    border: 4px double black;
+    
 }
