@@ -1,0 +1,18 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAV */
+.nav1_top {
+    height: 45px;
+}
+
+.sony-logo {
+    width: 5rem;
+}
+
+/* HEADER */
+/* returnal */
+.returnal {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+}
