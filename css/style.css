@@ -173,6 +173,11 @@ a {
     border: 4px double black;
 }
 
+/* section Playstation Store */
+.ps-store img {
+	cursor: pointer;
+}
+
 /* section Playstation Now */
 .ps-now {
 	background-color: #161c3b;
@@ -187,4 +192,31 @@ a {
 .btn-ps-now:hover {
 	background-color: white;
     border: 4px double black;
+}
+
+/* section Social */
+.social img {
+	cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #00439c;
+}
+
+.ps-footer {
+	width: 5rem;
+}
+
+.globe-img {
+	width: 1.4rem;
+}
+
+.footer li {
+	list-style: none;
+	line-height: 2rem;
+}
+
+.logo-sie {
+	width: 8rem;
 }
