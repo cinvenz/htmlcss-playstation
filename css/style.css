@@ -123,6 +123,7 @@ a {
 	border-bottom: 3px solid #3790d8;
 	transform: translateY(-20px);
 	cursor: pointer;
+	transition: transform .6s;
 }
 /* section it takes two */
 .it-takes-two {
@@ -135,4 +136,17 @@ a {
 
 .it-takes-two-title {
 	padding-top: 2.5rem;
+}
+
+/* section Nuove uscite */
+.card-nuove-uscite {
+	border-radius: 1rem;
+	overflow: hidden;
+	transition: transform .6s;
+}
+
+.card-nuove-uscite:hover {
+	
+	transform: translateY(-20px);
+	cursor: pointer;
 }
