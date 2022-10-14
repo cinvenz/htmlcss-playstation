@@ -1,6 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 100px;
+	margin-top: 111px;
 }
 
 /* general */
@@ -9,13 +8,40 @@ a {
 }
 
 /* NAV */
-.nav1_top {
-    height: 45px;
+
+.bar-sony {
+	height: 35px;
 }
 
-.sony-logo {
-    width: 5rem;
+.dropdown {
+	position: static;
 }
+
+.dropdown-menu[data-bs-popper] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dropdown-item {
+	text-align: center;
+}
+
+.dropdown-item img {
+	display: block;
+	width: 100%;
+}
+
 
 /* HEADER */
 /* returnal */
@@ -45,8 +71,25 @@ a {
 
 /* section returnal card */
 .returnal-card {
-    border-radius: 10px;
-    overflow: hidden;
+    padding: 3px;
+	border: 3px solid transparent;
+	border-radius: 1rem;
+	overflow: hidden;
+	transition: transform .6s;
+}
+
+.returnal-card.active {
+	border: 3px solid blue;
+}
+
+.returnal-card:hover {
+	border: 3px solid blue;
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+
+.returnal-card img {
+	border-radius: calc(1rem - 6px);
 }
 
 /* section Playstation 5 */
