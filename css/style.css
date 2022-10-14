@@ -90,11 +90,11 @@ a {
 }
 
 .returnal-card.active {
-	border: 3px solid blue;
+	border: 3px solid #3790d8;
 }
 
 .returnal-card:hover {
-	border: 3px solid blue;
+	border: 3px solid #3790d8;
 	transform: translateY(-20px);
 	cursor: pointer;
 }
@@ -108,4 +108,31 @@ a {
     background-color: #2d64e6;
     border-radius: 50px;
     padding: 0.7rem 1rem;
+}
+
+.btn-informazioni:hover {
+	background-color: #2d64e6;
+	border: 4px double black;
+}
+
+.card-playstation.play5 {
+	border-bottom: 3px solid #3790d8;
+}
+
+.card-playstation:hover {
+	border-bottom: 3px solid #3790d8;
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+/* section it takes two */
+.it-takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.it-takes-two-title {
+	padding-top: 2.5rem;
 }
