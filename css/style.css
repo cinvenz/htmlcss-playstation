@@ -67,12 +67,14 @@ a {
 .btn-accedi {
     background-color: #363636;
     border-radius: 50px;
-    padding: 0.4rem 0.8rem;
+    padding: 0.3rem 0.8rem;
+	border: 4px double #363636;
 }
 
 .btn-accedi:hover {
     background-color: #363636;
     border: 4px double white;
+	transition: 0.4s;
 }
 
 
@@ -94,12 +96,14 @@ a {
 .btn-acquista {
     background-color: #cd3d0f;
     border-radius: 50px;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 1rem;
+	border: 4px double #cd3d0f;
 }
 
 .btn-acquista:hover {
     background-color: #cd3d0f;
     border: 4px double black;
+	transition: 0.4s;
 }
 
 /* section returnal card */
@@ -129,12 +133,14 @@ a {
 .btn-informazioni {
     background-color: #2d64e6;
     border-radius: 50px;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 1rem;
+	border: 4px double #2d64e6;
 }
 
 .btn-informazioni:hover {
 	background-color: #2d64e6;
-	border: 4px double black;
+	border: 4px double white;
+	transition: 0.4s;
 }
 
 .card-playstation.play5 {
@@ -185,14 +191,16 @@ a {
 }
 
 .btn-ps-plus {
-	background-color: rgba(255,255,255,0.5);
+	background-color: #d9d9d9;
     border-radius: 50px;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 1rem;
+	border: 4px double #d9d9d9;
 }
 
 .btn-ps-plus:hover {
-	background-color: rgba(255,255,255,0.5);
+	background-color: #d9d9d9;
     border: 4px double black;
+	transition: 0.4s;
 }
 
 /* section Playstation Store */
@@ -208,12 +216,14 @@ a {
 .btn-ps-now {
 	background-color: white;
     border-radius: 50px;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 1rem;
+	border: 4px double white;
 }
 
 .btn-ps-now:hover {
 	background-color: white;
     border: 4px double black;
+	transition: 0.4s;
 }
 
 /* section Social */
