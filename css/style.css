@@ -212,6 +212,13 @@ a {
 	width: 1.4rem;
 }
 
+.form-select {
+	width: 6.5rem;
+	background-color: #00439c;
+	cursor: pointer;
+	border-color: #00439c;
+}
+
 .footer li {
 	list-style: none;
 	line-height: 2rem;
