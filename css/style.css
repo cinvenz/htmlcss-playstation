@@ -8,13 +8,28 @@ a {
 }
 
 /* NAV */
-
 .bar-sony {
 	height: 35px;
 }
 
 .dropdown {
 	position: static;
+}
+
+.nav-item {
+	gap: 0.8rem;
+}
+
+.bi-dot {
+	font-size: 2rem;
+}
+
+.bi-dot::before {
+	vertical-align: bottom;
+}
+
+.dropdown-item:hover {
+	color: #00439c;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -52,6 +67,17 @@ a {
     pointer-events: none;
 }
 
+.btn-accedi {
+    background-color: #363636;
+    border-radius: 50px;
+    padding: 0.4rem 0.8rem;
+}
+
+.btn-accedi:hover {
+    background-color: #363636;
+    border: 4px double white;
+}
+
 
 
 /* HEADER */
@@ -77,7 +103,6 @@ a {
 .btn-acquista:hover {
     background-color: #cd3d0f;
     border: 4px double black;
-    
 }
 
 /* section returnal card */
