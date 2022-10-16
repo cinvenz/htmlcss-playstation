@@ -54,14 +54,8 @@ a {
 	width: 100%;
 }
 
-
-
 .dropdown-toggle:focus::after {
-    border-top: 0;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0.3em solid;
-    border-left: 0.3em solid transparent;
-    pointer-events: none;
+	transform: rotate(-180deg);
 }
 
 .btn-accedi {
@@ -76,7 +70,6 @@ a {
     border: 4px double white;
 	transition: 0.4s;
 }
-
 
 
 /* HEADER */
