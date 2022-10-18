@@ -58,7 +58,7 @@ a {
 	vertical-align: 0.13em;
 }
 
-.dropdown-toggle:focus::after {
+.dropdown-toggle.show::after {
 	transform: rotate(-180deg);
 }
 
